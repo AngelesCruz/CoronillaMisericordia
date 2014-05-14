@@ -982,23 +982,25 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ave=0x7f020057;
-        public static final int cincoo=0x7f020058;
-        public static final int credo=0x7f020059;
-        public static final int cuatroo=0x7f02005a;
-        public static final int diezo=0x7f02005b;
-        public static final int dos=0x7f02005c;
-        public static final int doso=0x7f02005d;
-        public static final int ic_launcher=0x7f02005e;
-        public static final int mayores=0x7f02005f;
-        public static final int nueveo=0x7f020060;
-        public static final int ochoo=0x7f020061;
-        public static final int padre=0x7f020062;
-        public static final int seiso=0x7f020063;
-        public static final int sieteo=0x7f020064;
-        public static final int tres=0x7f020065;
-        public static final int treso=0x7f020066;
-        public static final int uno=0x7f020067;
-        public static final int unoo=0x7f020068;
+        public static final int boton=0x7f020058;
+        public static final int cero=0x7f020059;
+        public static final int cinco=0x7f02005a;
+        public static final int credo=0x7f02005b;
+        public static final int cuatro=0x7f02005c;
+        public static final int diez=0x7f02005d;
+        public static final int dos=0x7f02005e;
+        public static final int doso=0x7f02005f;
+        public static final int ic_launcher=0x7f020060;
+        public static final int mayores=0x7f020061;
+        public static final int nueve=0x7f020062;
+        public static final int ocho=0x7f020063;
+        public static final int padre=0x7f020064;
+        public static final int seis=0x7f020065;
+        public static final int siete=0x7f020066;
+        public static final int tres=0x7f020067;
+        public static final int treso=0x7f020068;
+        public static final int uno=0x7f020069;
+        public static final int unoo=0x7f02006a;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1012,7 +1014,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05003f;
+        public static final int action_settings=0x7f050041;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1043,6 +1045,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f050018;
         public static final int progress_horizontal=0x7f050019;
         public static final int radio=0x7f05002f;
+        public static final int scrollView1=0x7f05003f;
         public static final int search_badge=0x7f050032;
         public static final int search_bar=0x7f050031;
         public static final int search_button=0x7f050033;
@@ -1060,6 +1063,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
+        public static final int texto=0x7f050040;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1162,9 +1166,16 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
-        public static final int action_settings=0x7f0a000f;
+        public static final int action_settings=0x7f0a000e;
         public static final int app_name=0x7f0a000d;
-        public static final int hello_world=0x7f0a000e;
+        public static final int ave=0x7f0a0011;
+        public static final int credo=0x7f0a0010;
+        public static final int cuentasmayores=0x7f0a0013;
+        public static final int cuentasmenores=0x7f0a0014;
+        public static final int oracionJesus=0x7f0a0016;
+        public static final int orar=0x7f0a000f;
+        public static final int padre=0x7f0a0012;
+        public static final int santo=0x7f0a0015;
     }
     public static final class style {
         /** 

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">CoronillaMisericordia</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Coronilla Misericordia</string>
     <string name="action_settings">Settings</string>
+    <string name="orar">¡Oremos!</string>
+	<string name="credo">Creo en un solo Dios Padre todopoderoso, Creador del cielo y de la tierra, de todo lo visible y lo invisible. Creo en un solo Señor, Jesucristo, Hijo único de Dios, nacido del Padre antes de todos los siglos: Dios de Dios, Luz de Luz, Dios verdadero de Dios verdadero, engendrado, no creado, de la misma naturaleza del Padre, por quien todo fue hecho; que por nosotros, los hombres, y por nuestra salvación bajó del cielo, y por obra del Espíritu Santo se encarnó de María, la Virgen, y se hizo hombre; y por nuestra causa fue crucificado en tiempos de Poncio Pilato; padeció y fue sepultado, y resucitó al tercer día, según las Escrituras, y subió al cielo, y está sentado a la derecha del Padre; y de nuevo vendrá con gloria para juzgar a vivos y muertos, y su reino no tendrá fin.  Creo en el Espíritu Santo, Señor y dador de vida, que procede del Padre y del Hijo, que con él Padre y el Hijo recibe una misma adoración y gloria, y que habló por los profetas.  Creo en la Iglesia, que es una, santa, católica y apostólica. Confieso que hay un solo bautismo para el perdón de los pecados. Espero la resurrección de los muertos y la vida del mundo futuro. Amén</string>
+	<string name="ave">Dios te salve María llena eres de gracia el Señor es contigo; bendita tú eres entre todas las mujeres, y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la ahora de nuestra muerte. Amén</string>
+	<string name="padre">Padre Nuestro, que estás en el cielo. Santificado sea tu nombre. Hágase Señor Tu Voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día. Perdona nuestras ofensas como nosotros también perdonamos a los que nos ofenden. No nos dejes caer en tentación. Y líbranos del mal. Amen</string>
+	<string name="cuentasmayores">Padre Eterno, te ofrezco el Cuerpo y la Sangre, el Alma y la Divinidad de tu amadísimo Hijo, Nuestro Señor Jesucristo, como propiciación de nuestros pecados y los pecados del mundo entero</string>
+	<string name="cuentasmenores">Por su dolorosa Pasión, ten misericordia de nosotros y del mundo entero</string>
+	<string name="santo">Santo Dios, Santo Fuerte, Santo Inmortal, ten piedad de nosotros y del mundo entero</string>
+	<string name="oracionJesus">¡Oh mi amado y mi dulce amigo! Cuatro cosas hoy te pido con mucha necesidad: Paciencia para sufrir; fuerza para trabajar; valor para resistir las penas que han de venir y me han de mortificar; temperamento sereno para resolver las cosas con santa calma y así tener en el alma perfecta tranquilidad. Eso tengo que pedirte ¡Oh mi Jesús misericordioso! En este día consagrado para servirte y amarte. Amén</string>
 
 </resources>

@@ -12,20 +12,24 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.os.Build;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener{
 	private int contador=0;
 	ImageView img;
+	TextView txt;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
 		
+		txt=(TextView)findViewById(R.id.texto);
 		
 		img = (ImageView)findViewById(R.id.imgOracion);
 		View boton = findViewById(R.id.btnNext);
 		boton.setOnClickListener(this);
+		
 	}
 
 	@Override
@@ -69,20 +73,22 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
 	private void cambiaImagen(){
 		
 		
-		int ImagenInicial=R.drawable.ic_launcher;
+		int ImagenInicial=R.drawable.cero;
 		
 		if(contador<4) 
 		{
 			switch(contador){
 				case 1:
-					
-					img.setImageResource(R.drawable.padre);
+					img.setImageResource(R.drawable.unoo);
+					txt.setText(R.string.padre);
 					break;			
 				case 2:
-					img.setImageResource(R.drawable.ave);
+					img.setImageResource(R.drawable.doso);
+					txt.setText(R.string.ave);
 					break;
 				case 3:
-					img.setImageResource(R.drawable.credo);
+					img.setImageResource(R.drawable.treso);
+					txt.setText(R.string.credo);
 					break;
 				default://si fuera 0 o negativo por ejemplo
 					img.setImageResource(ImagenInicial);
@@ -91,40 +97,52 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
 			}
 		}else if (contador>3 && contador<59){
 			int moduloContador=(contador-3)%11;
-
+			
 			switch(moduloContador){
 			case 1:
-				img.setImageResource(R.drawable.mayores);
+				//cuentas mayores
+				img.setImageResource(ImagenInicial);
+				txt.setText(R.string.cuentasmayores);
 				break;			
 			case 2:
-				img.setImageResource(R.drawable.unoo);
+				img.setImageResource(R.drawable.uno);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 3:
-				img.setImageResource(R.drawable.doso);
+				img.setImageResource(R.drawable.dos);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 4:
-				img.setImageResource(R.drawable.treso);
+				img.setImageResource(R.drawable.tres);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 5:
-				img.setImageResource(R.drawable.cuatroo);
+				img.setImageResource(R.drawable.cuatro);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 6:
-				img.setImageResource(R.drawable.cincoo);
+				img.setImageResource(R.drawable.cinco);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 7:
-				img.setImageResource(R.drawable.seiso);
+				img.setImageResource(R.drawable.seis);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 8:
-				img.setImageResource(R.drawable.sieteo);
+				img.setImageResource(R.drawable.siete);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 9:
-				img.setImageResource(R.drawable.ochoo);
+				img.setImageResource(R.drawable.ocho);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			case 10:
-				img.setImageResource(R.drawable.nueveo);
+				img.setImageResource(R.drawable.nueve);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			default://si sobran 0 quiere decir que est‡ en la cuenta 10 de las cuentas mayores
-				img.setImageResource(R.drawable.diezo);
+				img.setImageResource(R.drawable.diez);
+				txt.setText(R.string.cuentasmenores);
 				break;
 			}
 			
@@ -133,15 +151,23 @@ public class MainActivity extends ActionBarActivity implements OnClickListener{
 			
 			switch(moduloContador){
 			case 1:
-				img.setImageResource(R.drawable.uno);
+				img.setImageResource(R.drawable.unoo);
+				txt.setText(R.string.santo);
 				break;			
 			case 2:
-				img.setImageResource(R.drawable.dos);
+				img.setImageResource(R.drawable.doso);
+				txt.setText(R.string.santo);
 				break;
 			case 3:
-				img.setImageResource(R.drawable.tres);
+				img.setImageResource(R.drawable.treso);
+				txt.setText(R.string.santo);
 				break;
-			default://si excediera de los 61 volvemos a colocar la imagen inicial;
+			case 4:
+				//Áoh mi amado y dulce amigo!
+				img.setImageResource(ImagenInicial);
+				txt.setText(R.string.oracionJesus);
+				break;
+			default://si excediera de los 62 volvemos a colocar la imagen inicial;
 				img.setImageResource(ImagenInicial);
 				contador=0; //y volvemos al contador 0
 				break;
